@@ -29,6 +29,13 @@ export const fetchUser = id => async dispatch => {
         payload: resp.data
     })
 }
+
+export const selectedUser = user => {
+    return {
+        type: 'SELECTED_USER',
+        payload: user
+    }    
+}
 // export const fetchUser = (id) => async dispatch => {
 //     _fetchUser(id, dispatch)
 // }
