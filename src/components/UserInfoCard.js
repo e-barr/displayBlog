@@ -26,7 +26,7 @@ class UserInfoCard extends Component {
                 <h3>aka {user.name}</h3>
                 <br></br>
                 
-                <i className="envelope outline icon"></i><a href="mailto:">{user.email}</a><br></br>
+                <i className="envelope outline icon"></i><a href={`mailto:${user.email}`}>{user.email}</a><br></br>
                 <i className="map marker icon"></i>{`${street}`}<br></br>
                 {`${suite}`}<br></br>
                 {`${city} ${zipcode}`}<br></br>
