@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/e-barr/displayBlog/precache-manifest.205ccd1eef637cbd80de53187e6b2128.js"
+  "/displayBlog/precache-manifest.4295e80aaf45f0ad0e8f6692fa6cb8dc.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/e-barr/displayBlog/index.html", {
+workbox.routing.registerNavigationRoute("/displayBlog/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
