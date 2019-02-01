@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "bfdbfaccc00186f14eb3",
+    "revision": "f0e7ff269465ebcde3df",
     "url": "/displayBlog/static/css/main.582d4173.chunk.css"
   },
   {
-    "revision": "bfdbfaccc00186f14eb3",
-    "url": "/displayBlog/static/js/main.bfdbfacc.chunk.js"
+    "revision": "f0e7ff269465ebcde3df",
+    "url": "/displayBlog/static/js/main.f0e7ff26.chunk.js"
   },
   {
     "revision": "b57e448360153f976977",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/displayBlog/static/js/runtime~main.8e904199.js"
   },
   {
-    "revision": "23c8541255d302de5496d2ae40d3bddf",
+    "revision": "9823a3680e8c100577fb6db71a03b4ff",
     "url": "/displayBlog/index.html"
   }
 ];
