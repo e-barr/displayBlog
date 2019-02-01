@@ -8,6 +8,7 @@ class App extends Component {
     render() {
         return(
             <div className="ui container">
+            <h1>displayBlog</h1>
                 {this.props.selectedUser === null ? <PostList /> : <UserInfoCard /> }
             </div>
         )

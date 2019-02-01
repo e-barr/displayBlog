@@ -15,8 +15,9 @@ ul li {
     position: relative;
     top: 75px;
     padding: 60px;
-    background-color: wheat;
+    background-color: rgb(255, 220, 143);
     border-radius: 3px;
     opacity: .8;
     color: rgb(51, 47, 47);
+    border: 1px solid white;
 }
