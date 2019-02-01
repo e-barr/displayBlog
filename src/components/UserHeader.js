@@ -5,13 +5,12 @@ import { selectedUser } from '../actions'
 class UserHeader extends Component {
 
     render() {
-        console.log(this.props)
         const { user } = this.props
-
+        
         if (!user) {
             return null
         }
-
+        
         return (
             <div className="header" onClick={() => this.props.selectedUser(user)}>{user.username}</div>
         )

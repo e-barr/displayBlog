@@ -1,15 +1,23 @@
-import React from 'react'
+import React, { Component } from 'react'
 import PostList from './PostList'
 import UserInfoCard from './UserInfoCard'
+import { connect } from 'react-redux'
 import './App.css'
 
-const App = () => {
-    return (
-        <div className="ui container">
-            <PostList />
-            <UserInfoCard />
-        </div>
-    )
+class App extends Component {
+    render() {
+        return(
+            <div className="ui container">
+                {this.props.selectedUser === null ? <PostList /> : <UserInfoCard /> }
+            </div>
+        )
+    }
 }
 
-export default App;
+const mapStateToProps = (state) => {
+    return {
+        selectedUser: state.selectedUser
+    }
+}
+
+export default connect(mapStateToProps)(App);

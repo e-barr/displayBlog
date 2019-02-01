@@ -36,6 +36,13 @@ export const selectedUser = user => {
         payload: user
     }    
 }
+
+export const deselectedUser = () => {
+    return {
+        type: 'DESELECTED_USER',
+        payload: null
+    }
+}
 // export const fetchUser = (id) => async dispatch => {
 //     _fetchUser(id, dispatch)
 // }
